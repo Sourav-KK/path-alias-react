@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./source",
+    "paths": {
+      "@controls/*": ["Contollers/*"],
+      "@routes/*": ["Routes/*"]
+    },
+
+    "target": "es2016",
+    "module": "CommonJS",
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "removeComments": true /* Disable emitting comments. */,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true /* Enable all strict type-checking options. */,
+
+    "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
+    "noUnusedLocals": true /* Enable error reporting when local variables aren't read. */,
+    "noUnusedParameters": true /* Raise an error when a function parameter isn't read. */,
+
+    "skipLibCheck": true
+  },
+  // "include": ["./source/**/*"],
+  "exclude": ["node_modules"] // files to skip
+}
